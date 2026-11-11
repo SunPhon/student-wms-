@@ -1,0 +1,18 @@
+.route-options{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.route-option{border:1px solid #e3e8dc;border-radius:15px;background:#fff;padding:14px;text-align:left;color:var(--ink);transition:.16s}
+.route-option:hover,.route-option.selected{border-color:#68ad86;background:#eaf5e9}
+.route-option b{display:block;font-size:12px}
+.route-option span{display:block;font-size:10px;color:var(--muted);margin-top:5px}
+.route-option .route-distance{font:700 19px 'Space Grotesk',sans-serif;color:var(--green);margin-top:9px}
+.shipment-row{display:grid;grid-template-columns:1fr auto;align-items:center;gap:12px;padding:12px;border-radius:13px;background:#fff;border:1px solid #e5e9df;margin-bottom:8px}
+.shipment-row strong{display:block;font-size:11px}
+.shipment-row span{font-size:10px;color:var(--muted)}
+.shipment-status{padding:5px 8px;border-radius:8px;background:#f1f4ec;color:#61746a;font-size:9px;font-weight:700;white-space:nowrap}
+.practice-aside h3{font-size:14px;margin:0 0 8px}
+.practice-aside p{font-size:11px;line-height:1.75;color:var(--muted)}
+.practice-points{display:grid;gap:8px;margin:12px 0}
+.practice-points div{display:flex;gap:8px;align-items:center;color:#526a60;font-size:10px}
+.practice-points b{display:grid;place-items:center;width:19px;height:19px;border-radius:7px;background:#e7f3e8;color:var(--green)}
+.practice-aside .button{width:100%;margin-top:6px}
+@media(max-width:620px){.route-options{grid-template-columns:1fr}}
+
